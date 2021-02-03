@@ -6,8 +6,4 @@
             'data-options': pickr_options | json_encode
         }
     }) }}
-    <link rel="stylesheet" href="{{ asset('bundles/wandicolorpicker/css/' ~ pickr_options['theme'] ~ '.min.css') }}"/>
-    <script src="{{ asset('bundles/wandicolorpicker/js/pickr.min.js') }}"></script>
-    <script type="text/javascript">var wandiColorPickerInputElement = document.querySelector('#{{ form.vars.id }}');</script>
-    <script src="{{ asset('bundles/wandicolorpicker/js/wandicolorpicker.js') }}"></script>
 {% endblock %}
