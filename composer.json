@@ -45,7 +45,6 @@
         "symfony/translation": "^5.0",
         "symfony/twig-bundle": "^5.0",
         "symfony/validator": "^5.0",
-        "twig/extensions": "^1.5",
         "ssnepenthe/color-utils": "^0.4.2"
     },
     "require-dev": {
